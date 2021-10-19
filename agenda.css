@@ -1,0 +1,50 @@
+body{
+    background-color: #fef1df;
+    cursor: pointer;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.month{
+    text-align: center;
+    background-color: #747cdf;
+    font-size: 2.5em;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: #c9c9c9;
+    padding: 25px;
+    border: 1px solid;
+}
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border:1px solid #747cdf;
+
+}
+tr, th, td{
+    padding: 15px;
+}
+th{
+    background-color: #747cdf;
+    border-radius: 5px;
+}
+td{
+    background-color: #c9c9c9;
+}
+td:hover{
+    background-color: #747cdf;
+}
+table, th, .important{
+    background-color: #747cdf;
+}
+table, th, .super-important{
+    background-color: #747cdf;
+}
+table, th, .melon{
+    background-color: #747cdf;
+}
